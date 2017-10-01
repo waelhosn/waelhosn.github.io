@@ -1,21 +1,258 @@
-<!DOCTYPE html>
 <html>
+	<head>
+		<title>"Wael Aboul Hosn"</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	<style>
+	.margin {margin-bottom: 25px;}
+	
+	
+		.container-fluid {
+          padding-top: 25px;
+    padding-bottom: 25px;
+	  
+  }
+  
+  .progress {
+        height: 0.8%;
+    width: 70%;
+	}
+	h3{
+		font-size=0px;
+		
+	}
+	
+	h6{
+	font-style: italic;
+	}
+	
+	#profileimg{
+	margin-top: 20px;
+	}	
+	#contents{
+	text-align: left;
+	margin-left: 28px;
+	margin-top: 40px;
+	}
+	.col-sm-4{
+	
+	height: 150px;
+    width: 330px;
+	}
+	.col-sm-12 {
+    width: 100%;
+    margin-top: 20px;
+}
+	.bg-2,.bg-4{
+	background-color: #004d99;
+	color: white;
+	padding-top: 96px;
+	}
+	.bg-3{
+	background-color: white;
+	color: #004d99;
+	}
+	#col1{
+	margin-left: 100px;
+    margin-right: 25px;
+	}
+	#col2{
+	margin-left: 25px;
+    margin-right: 25px;
+	}
+	.skills{
+	text-align: left;
+	margin-top: 20px;
+	
+	
+	}
+	@media (min-width: 768px){
+	.col-border:before{
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		border-left: 1px black;
+	}
+	}
+	.bg-1 { 
+      /*background-color: #1abc9c;  Green */
+      color: #ffffff;
+	  background-image: url("img/background.png");
+	  background-repeat: round;
+	      padding-top: 50px;
+  }
+	</style>
+<body style="height:1500px" data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#Home">Wael Aboul Hosn</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#Home">Home</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Experience">Experience</a></li>
+      <li><a href="#Projects">Projects</a></li>
+	  <li><a href="#Skills1">Skills</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid bg-1 text-center" id="Home">
+  <h2 class="margin">Wael Aboul Hosn</h2>
+  <h5>Computer Scientist</h5>
+  <img src="img/layer3.png" id="profileimg" class="img-responsive" style="display:inline" alt="Wael Aboul Hosn" width="100">
+  
+</div>
 
-<head>
-  <title>Wael Aboul Hosn</title>
-</head>
-<body style="background-color:lightblue;">
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" >
+  <h2 class="margin" id="Education">Education</h2>
+  <div class="row">
+  <div class="col-sm-4" id="col1" >
+	  <h4>American University of Beirut</h4>
+	  <h6>2013 - 2015</h6>
+		  <div id="contents">
+		  <li>B.S in Computer Science</li>
+		  </div>
+  </div>
+  <div class="col-sm-4" id="col2">
+  <h4>Lebanese American University</h4>
+	<h6>2015 - Present</h6>
+		  <div id="contents">
+		  <li>B.S in Computer Science (Spring 2018)</li>
+		  <li>Minor in Business (Fall 2017)
+		  </div>
+  </div>
+  
+</div>
+</div>
+  
+<div class="container-fluid bg-3 text-center" id="Experience" >
+  <h3 class="margin" >Experience</h3>
+  <div class="row">
+  <div class="col-sm-6" >
+	  <h4>Model United Nations Trainer</h4>
+	  <h6>2016 - 2017</h6>
+		  <div id="contents">
+		  <p>GC LAU MUN is a program that brings the UN culture of global awareness and the implementation of peaceful means for conflict resolution to the Lebanese High Schools, Middle Schools, and community at large. The trainers in the program increase the students’ cognition about the United Nations, research and interpretation skills, public speaking, conflict resolution and negotiations.</p>
+		  
+		  <li>Influencing a class of 60 high school students to becoming better future leaders.</li>
+		  <li>Improving the student’s public speaking skills and prompting them to engage in team building</li>
+		  </div>
+  </div>
+  <div class="col-sm-6" >
+  <h4>Bus System App Startup </h4>
+  <h6>Founder</h6>
+	<h6>2017 - Present</h6>
+		  <div id="contents">
+		  <p>The bus app allows a user to track the location of busses in real time. This app makes the bus service convenient to the user by providing him with the ETA of the bus. The user will no longer waste time waiting for the next bus to arrive instead. The app will help improve the bus and transportation system in Lebanon.</p>
+		  <li>App is currently in development by a team of five including myself.</li>
+		  <li>Currently working on the front-end of the app.</li>
+		  
+		  </div>
+  </div>
+  <div class="col-sm-12" >
 
+  <h4>GCI MUN Conference</h4>
+  <h6>UN HQ - New York , 2017</h6>
+		  <div id="contents">
+		  <p>The program brings the UN culture of global awareness and to bridge the education gap through allowing high school and middle school students to step into the shoes of ambassadors in order to negotiate with fellow delegates the current world issues, to resolve conflicts, and to navigate the UN’s rules of procedure.</p>
+		  
+		  
+		  </div>
+  </div>
+  
+</div>  
+  
+</div>
 
-<h1 style="text-align:center;">Biography</h1>
-<h5 style="text-align:center;">Wael Aboul Hosn</h5>
+<div class="container-fluid bg-4 text-center" >
+  <h3 class="margin" id="Projects">Projects</h3>
+  <div class="row">
+  <div class="col-sm-6" >
+	  <h4>ShipMe</h4>
+	  <h6>Backend Developer</h6>
+	  <h6>2016 - 2017</h6>
+		  <div id="contents">
+		  <p>The platform solves a problem for customers who wait about 1-2 months to get their requested products via shipment.</p>
+		  <li>Developed the back-end using PHP as a server-side language of the platform.</li>
+		  <li>Used tools like MYSQL and SQL server to find,save, or change data and serve it back to the user in the front-end code.</li>
+		  </div>
+  </div>
+  <div class="col-sm-6" >
+  <h4>Bus System App Startup </h4>
+  <h6>Founder</h6>
+	<h6>2017 - Present</h6>
+		  <div id="contents">
+		  <p>The bus app allows a user to track the location of busses in real time. This app makes the bus service convenient to the user by providing him with the ETA of the bus. The user will no longer waste time waiting for the next bus to arrive instead. The app will help improve the bus and transportation system in Lebanon.</p>
+		  <li>App is currently in development by a team of five including myself.</li>
+		  <li>Currently working on the front-end of the app.</li>
+		  
+		  </div>
+  
+	</div>
+</div>
+</div>
 
-<p>My name is Wael Aboul Hosn and I was born in Beirut on the 21<sup>st</sup> of July, 1995. I am currently studying at the Lebanese American University in Byblos.</p>
-<img src="laubyblos.jpg" alt="LAU Byblos" width="736" height="489">
-<br></br>
-<a href="https://www.lau.edu.lb">Lebanese American University - Byblos Campus</a>
-<p>I spent most my life living in the Emirates;however, I moved back to Lebanon in 2009 and I am currently living in my hometown Chbenieh.</p>
-<img src="chbenieh.jpg" alt="Chbenieh" width="920" height="320">
+<div class="container-fluid bg-5 text-center">
+	<h2 class="margin" id="Skills1">Skills</h2>
+	<div class="col-sm-6 col-border" >
+	<div class="col-border-padding">
+	<h3>Professional Skills</h3>
+	<div class="skills">
+  <h4>Communication</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+    </div>
+  </div>
+  
+  <h4>Team Player</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+    </div>
+  </div>
+  
+  <h4>Critical Thinking</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+    </div>
+  </div>
+  
+  <h4>Leadership</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:94%">
+    </div>
+  </div>
+  
+  <h4>Management</h2>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-6 col-border" >
+<div class="col-border-padding">
+	<h3>Professional Skills</h3>
+	<div class="skills">
+	<h4>- PHP</h4>
+	<h4>- MySQL</h4>
+	<h4>- Java</h4>
+	<h4>- C</h4>
+	<h4>- Android Development</h4>
+	<h4>- Python</h4>
+	<h4>- Bash</h4>
+</div>
+</div>
+</div>
+
 
 
 </body>
